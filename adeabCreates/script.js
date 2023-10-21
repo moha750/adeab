@@ -15,7 +15,12 @@ $("#createIdea").click(function(){
 });
 });
 
+const inp = document.querySelector(".inp");
 var proglab = document.getElementById('progress');
+
+const upload = () => {
+  inp.click();
+};
 
 function upload(){
     //get your image
