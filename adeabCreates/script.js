@@ -15,14 +15,12 @@ $("#createIdea").click(function(){
 });
 });
 
-const inp = document.querySelector(".inp");
+var inp = document.querySelector(".inp");
 var proglab = document.getElementById('progress');
 
-const upload = () => {
-  inp.click();
-};
-
 function upload(){
+  inp.click();
+
     //get your image
     var image=document.getElementById('image').files[0];
     //get your blog text
